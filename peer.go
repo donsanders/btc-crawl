@@ -47,6 +47,18 @@ func (p *Peer) Disconnect() {
 	logger.Debugf("[%s] Closed.", p.Address)
 }
 
+// NewMsgVersionFromConn is a convenience function that extracts the remote
+// and local address from conn and returns a new bitcoin version message that
+// conforms to the Message interface.  See NewMsgVersion.
+func NewMsgVersionFromConn(conn net.Conn, nonce uint64,
+	lastBlock int32) (*wire.MsgVersion, error) {
+ 	// Don't assume any services until we know otherwise.
+	lna := wire.NewNetAddress(conn.LocalAddr().(*net.TCPAddr), 0)
+ 	// Don't assume any services until we know otherwise.
+	rna := wire.NewNetAddress(conn.RemoteAddr().(*net.TCPAddr), 0)
+ 	return wire.NewMsgVersion(lna, rna, nonce, lastBlock), nil
+}
+
 func (p *Peer) Handshake() error {
 	if p.conn == nil {
 		return fmt.Errorf("Peer is not connected, can't handshake.")
@@ -60,7 +72,7 @@ func (p *Peer) Handshake() error {
 	}
 	p.nonce = nonce
 
-	msgVersion, err := wire.NewMsgVersionFromConn(p.conn, p.nonce, 0)
+	msgVersion, err := NewMsgVersionFromConn(p.conn, p.nonce, 0)
 	msgVersion.UserAgent = p.client.userAgent
 	msgVersion.DisableRelayTx = true
 	if err := p.WriteMessage(msgVersion); err != nil {
