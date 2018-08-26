@@ -1,0 +1,10 @@
+Some todos for whoever wishes todo them
+
+TODO
+Compute Watts Strogatz 1998 clustering coefficient
+Include code for gamma fit using powerlaw module, partitioning attack survival and randomness testing
+Find intersection with btcnodes.com node list sorted by most recent seen date
+Run code from a machine that is running a full node, preferably one with a good reputation
+Analyze combined output from multiple machines
+Include sample data geolocation fuzzed
+Move code out of btc-crawl into separate repo using btc-crawl and python as a dependency
