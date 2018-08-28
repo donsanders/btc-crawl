@@ -1,7 +1,11 @@
 Some todos for whoever wishes todo them
 
 TODO
-Compute Watts Strogatz 1998 clustering coefficient
+There should be an append option
+Instead of crashing print No on invalid data
+Get rid of the pidof based script, replace by updating go code. I’m just learning go 
+Have some one who knows python rewrite that code. I’m just learning python
+Also the shell cleaning code is inefficient and lossy, should be replaced
 Include code for gamma fit using powerlaw module, partitioning attack survival and randomness testing
 Find intersection with btcnodes.com node list sorted by most recent seen date
 Run code from a machine that is running a full node, preferably one with a good reputation

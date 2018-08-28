@@ -1,0 +1,56 @@
+2018-08-27 09:15:44.666762 Reading scan ./scans/Satoshi-0-16-3-cleaned-1.json of btc network space. Cumulative totals: nodes 20453 edges 38137
+2018-08-27 09:15:45.313495 Reading scan ./scans/Satoshi-0-16-3-cleaned-2.json of btc network space. Cumulative totals: nodes 25991 edges 64724
+2018-08-27 09:15:46.103832 Reading scan ./scans/Satoshi-0-16-3-cleaned-3.json of btc network space. Cumulative totals: nodes 30271 edges 90383
+2018-08-27 09:15:47.448513 Reading scan ./scans/Satoshi-0-16-3-cleaned-4.json of btc network space. Cumulative totals: nodes 34160 edges 133617
+2018-08-27 09:15:48.721336 Reading scan ./scans/Satoshi-0-16-3-cleaned-5.json of btc network space. Cumulative totals: nodes 35577 edges 152485
+2018-08-27 09:15:50.044090 Reading scan ./scans/Satoshi-0-16-3-cleaned-6.json of btc network space. Cumulative totals: nodes 36612 edges 169531
+2018-08-27 09:15:51.521043 Reading scan ./scans/Satoshi-0-16-3-cleaned-7.json of btc network space. Cumulative totals: nodes 37291 edges 179103
+2018-08-27 09:15:53.183719 Reading scan ./scans/Satoshi-0-16-3-cleaned-8.json of btc network space. Cumulative totals: nodes 38939 edges 187253
+2018-08-27 09:15:55.039048 Reading scan ./scans/Satoshi-0-16-3-cleaned-9.json of btc network space. Cumulative totals: nodes 42276 edges 221084
+Node count of largest strongly connected component 299
+Node count of first 10 strongly connected components [299, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+H = largest strongly connected sub component
+H average clustering coefficient 0.1770334615
+H nodes 299 H.edges 3996 ln(nodes) 5.70
+H average shortest path length 2.68308231016
+Small-world found:
+YES
+
+2018-08-27 13:54:23.459916 Reading scan ./scans/Satoshi-0-16-3-cleaned-1.json of btc network space. Cumulative totals: nodes 16908 edges 29108
+2018-08-27 13:54:23.724473 Reading scan ./scans/Satoshi-0-16-3-cleaned-2.json of btc network space. Cumulative totals: nodes 16928 edges 29113
+2018-08-27 13:54:24.332537 Reading scan ./scans/Satoshi-0-16-3-cleaned-3.json of btc network space. Cumulative totals: nodes 25422 edges 60165
+2018-08-27 13:54:25.094741 Reading scan ./scans/Satoshi-0-16-3-cleaned-4.json of btc network space. Cumulative totals: nodes 28797 edges 75599
+2018-08-27 13:54:26.200984 Reading scan ./scans/Satoshi-0-16-3-cleaned-5.json of btc network space. Cumulative totals: nodes 32987 edges 112613
+2018-08-27 13:54:27.611211 Reading scan ./scans/Satoshi-0-16-3-cleaned-6.json of btc network space. Cumulative totals: nodes 38680 edges 156117
+2018-08-27 13:54:29.094890 Reading scan ./scans/Satoshi-0-16-3-cleaned-7.json of btc network space. Cumulative totals: nodes 40533 edges 181509
+2018-08-27 13:54:30.725183 Reading scan ./scans/Satoshi-0-16-3-cleaned-8.json of btc network space. Cumulative totals: nodes 41431 edges 203164
+2018-08-27 13:54:32.805837 Reading scan ./scans/Satoshi-0-16-3-cleaned-9.json of btc network space. Cumulative totals: nodes 43068 edges 229548
+2018-08-27 13:54:34.899870 Reading scan ./scans/Satoshi-0-16-3-cleaned-10.json of btc network space. Cumulative totals: nodes 44117 edges 263470
+Node count of largest strongly connected component 404
+Node count of first 10 strongly connected components [404, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+H = largest strongly connected sub component
+H average clustering coefficient 0.137860140575
+H nodes 404 H.edges 6677 ln(nodes) 6.00
+H average shortest path length 2.56487851018
+Small-world found:
+YES
+
+2018-08-27 22:21:22.820273 Reading scan ./scans/Satoshi-0-16-3-cleaned-1.json of btc network space. Cumulative totals: nodes 17267 edges 27145
+2018-08-27 22:21:23.340513 Reading scan ./scans/Satoshi-0-16-3-cleaned-2.json of btc network space. Cumulative totals: nodes 23426 edges 45570
+2018-08-27 22:21:24.226723 Reading scan ./scans/Satoshi-0-16-3-cleaned-3.json of btc network space. Cumulative totals: nodes 30295 edges 84826
+2018-08-27 22:21:25.184533 Reading scan ./scans/Satoshi-0-16-3-cleaned-4.json of btc network space. Cumulative totals: nodes 34100 edges 100625
+2018-08-27 22:21:26.510585 Reading scan ./scans/Satoshi-0-16-3-cleaned-5.json of btc network space. Cumulative totals: nodes 35984 edges 124848
+2018-08-27 22:21:27.977212 Reading scan ./scans/Satoshi-0-16-3-cleaned-6.json of btc network space. Cumulative totals: nodes 40372 edges 161570
+2018-08-27 22:21:30.050165 Reading scan ./scans/Satoshi-0-16-3-cleaned-7.json of btc network space. Cumulative totals: nodes 43166 edges 209164
+2018-08-27 22:21:32.231833 Reading scan ./scans/Satoshi-0-16-3-cleaned-8.json of btc network space. Cumulative totals: nodes 46832 edges 245949
+2018-08-27 22:21:34.345262 Reading scan ./scans/Satoshi-0-16-3-cleaned-9.json of btc network space. Cumulative totals: nodes 46847 edges 246502
+2018-08-27 22:21:37.035357 Reading scan ./scans/Satoshi-0-16-3-cleaned-10.json of btc network space. Cumulative totals: nodes 49044 edges 286470
+Node count of largest strongly connected component 379
+Node count of first 10 strongly connected components [379, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+H = largest strongly connected sub component
+H average clustering coefficient 0.167438606087
+H nodes 379 H.edges 6915 ln(nodes) 5.94
+H average shortest path length 2.52385140512
+Small-world found:
+YES
+

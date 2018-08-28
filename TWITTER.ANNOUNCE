@@ -1,0 +1,3 @@
+Code released that scans the btc network space, identifies and maps the topology of the active peer-to-peer network, used to recover from attacks that take down direct connections, and tests if the largest strongly connected component is a small-world #go #science
+
+This is a developer preview for those interested in contributing. Build and run instructions in README.md basically make && ./analyzenetwork.sh then wait 100+ minutes. YES on success, may need to run multiple times but worked for me 3 for 3. https://github.com/donsanders/btc-crawl
