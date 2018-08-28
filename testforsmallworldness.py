@@ -55,5 +55,5 @@ def analyze(G):
         print "NO"
 
 # Load and analyze scan data
-G = btcGraphSpace(1, 100)
+G = btcGraphSpace(1, 11)
 analyze(G)

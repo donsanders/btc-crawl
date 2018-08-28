@@ -1,7 +1,7 @@
 #!/bin/sh
 #Clean json files, throw away final line as it may have been partially written and then fix up final line ending
 #Don’t modify input files, creates new "cleaned" files in prefix directory
-scans=100
+scans=10
 prefix="scans/Satoshi-0-16-3-"
 
 #1. Delete last line of file
