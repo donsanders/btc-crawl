@@ -25,7 +25,7 @@ def addNodesFromFile(G, filename):
             G.add_edge(node['address'],edge)
     G = ensureDiGraph(G, filename)
 
-# Create graph space (forest) enclosing connected components
+# Create graph space (network) enclosing connected components
 def btcGraphSpace(a, b):
     G = nx.DiGraph()
     for i in range(a, b, 1):
