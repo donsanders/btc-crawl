@@ -3,9 +3,30 @@ make && ./analyzenetwork.sh
 
 After 100+ minutes depending on system performance the script should print YES if a small-world graph has been detected. Otherwise it will crash or print NO.
 
-I’ve tested on OS X only
-I have python and pips installed and my brew leaves contains surplus libraries but it is:
-automake berkeley-db boost coreutils gnu-sed go libevent libtool miniupnpc pidof pkg-config protobuf qt
+The following dependencies are required on OS X:
+
+#Brew:
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+#Brew recipes:
+brew install python3
+brew install go
+brew install coreutils
+brew install pkg-config
+brew install gnu-sed
+
+#Go modules:
+go get github.com/alexcesaro/log
+go get github.com/alexcesaro/golog
+go get github.com/btcsuite/btcd/chaincfg
+go get github.com/btcsuite/btcd/wire
+go get github.com/jessevdk/go-flags
+
+#Pips
+sudo easy_install pip
+
+#Networkx
+pip install networkx
 
 README for btc-crawl follows. The btc-crawl authors wrote all the network code. I’m just piggybacking on their project and go. To save time and because I’m researching go.
 
