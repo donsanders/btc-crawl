@@ -1,3 +1,18 @@
+#ANNOUNCE2
+
+Software that maps the btc network ‘knows of’ topology using the getAddr method is hereby officially released. The software finds the largest strongly connected component of the network based on multiple scans, and tests if it is a small-world. Samples taken in August show it is.
+[Include video file Finally ok maybe]
+
+The software is public https://github.com/donsanders/btc-crawl Scan count remains at 10, and scan time at 100 minutes. This is sufficient to find a small-world. To map the majority of nodes listed by https://bitnodes.earn.com/nodes/ increase scan count to 100. Instructions in README.md
+
+[Voice over for video]
+
+Here are four nodes in a confinement field, they could represent people, or airports or web servers for example, connected by handshakes, flights, web links, or any type of relationship that connects two entities, these connections are called edges in the field of network science. Adding edges can cause dramatic changes in behavior.
+
+These four nodes represent 4 seed nodes found in a single scan of the btc network and the edges represent known of relationships between them. Additional scans collect more information on additional nodes and edges. In tests during August enough information was collected to confirm the existence of a small-world core of nodes in the network.
+
+#ANNOUNCE1
+
 Code released that scans the btc network space, identifies and maps the topology of the active peer-to-peer network, used to recover from attacks that take down direct connections, and tests if the largest strongly connected component is a small-world #go #science
 
 This is a developer preview for those interested in contributing. Build and run instructions in README.md basically make && ./analyzenetwork.sh then wait 100+ minutes. YES on success, may need to run multiple times but worked for me 3 for 3. https://github.com/donsanders/btc-crawl
